@@ -20,7 +20,6 @@ namespace GTA5_MD5_Checker
             showDirectory();
             bool deleteFiles = areWeDeleting();
             string[] fileHashList = client.DownloadString("https://github.com/Scarsz/GTA5-MD5-Checker/raw/master/hashes").Split(new string[] { "\n", " " }, StringSplitOptions.None);
-            string[] files = Directory.GetFiles(".\\");
             // Change this for a different text color of the scanning process
             Console.ForegroundColor = ConsoleColor.White;
             foreach (string file in Directory.EnumerateFiles(".\\", "*.*", SearchOption.AllDirectories))

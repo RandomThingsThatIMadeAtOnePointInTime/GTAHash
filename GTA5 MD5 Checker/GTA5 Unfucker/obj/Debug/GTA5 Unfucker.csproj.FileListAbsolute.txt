@@ -1,0 +1,6 @@
+c:\users\scarsz\documents\visual studio 2013\Projects\GTA5 Unfucker\GTA5 Unfucker\bin\Debug\GTA5 Unfucker.exe.config
+c:\users\scarsz\documents\visual studio 2013\Projects\GTA5 Unfucker\GTA5 Unfucker\bin\Debug\GTA5 Unfucker.exe
+c:\users\scarsz\documents\visual studio 2013\Projects\GTA5 Unfucker\GTA5 Unfucker\bin\Debug\GTA5 Unfucker.pdb
+c:\users\scarsz\documents\visual studio 2013\Projects\GTA5 Unfucker\GTA5 Unfucker\obj\Debug\GTA5 Unfucker.csprojResolveAssemblyReference.cache
+c:\users\scarsz\documents\visual studio 2013\Projects\GTA5 Unfucker\GTA5 Unfucker\obj\Debug\GTA5 Unfucker.exe
+c:\users\scarsz\documents\visual studio 2013\Projects\GTA5 Unfucker\GTA5 Unfucker\obj\Debug\GTA5 Unfucker.pdb

@@ -51,13 +51,17 @@ namespace GTA5_MD5_Checker
                         {
                             // Not so match
                             Console.BackgroundColor = ConsoleColor.Red;
-                            Console.WriteLine("    " + file + " [DELETED]");
-                            badCount++;
                             if (deleteFiles)
                             {
+                                Console.WriteLine("    " + file + " [DELETED]");
                                 // We should be deleting the files so they can be downloaded later, let's do that
                                 File.Delete(file);
                             }
+                            else
+                            {
+                                Console.WriteLine("    " + file);
+                            }
+                            badCount++;
                         }
                     }
                 }

@@ -1,4 +1,4 @@
-# GTA5-Unfucker
+# GTA5-MD5-Checker
 An *English* SHA1 checker for GTAV PC.
 
 # Download

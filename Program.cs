@@ -1,9 +1,4 @@
-﻿using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-
+using System;
 using System.IO;
 using System.Net;
 using System.Security.Cryptography;
@@ -30,7 +25,7 @@ namespace GTA5_MD5_Checker
             Console.ForegroundColor = ConsoleColor.White;
             foreach (string file in Directory.EnumerateFiles(".\\", "*.*", SearchOption.AllDirectories))
             {
-                // Crude way to exclude this exe from the search
+                // Crude way to exclude this exe from the search as well as _CommonRedist
                 if (file != ".\\" + System.AppDomain.CurrentDomain.FriendlyName & file.Split('\\')[1] != "_CommonRedist")
                 {
                     int index = Array.IndexOf(fileHashList, file);
@@ -58,7 +53,6 @@ namespace GTA5_MD5_Checker
                             Console.BackgroundColor = ConsoleColor.Red;
                             Console.WriteLine("    " + file + " [DELETED]");
                             badCount++;
-
                             if (deleteFiles)
                             {
                                 // We should be deleting the files so they can be downloaded later, let's do that

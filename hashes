@@ -5,8 +5,8 @@
 .\GFSDK_ShadowLib.win64.dll d043c98ed424f6770ea800e77efcf561
 .\GFSDK_TXAA.win64.dll 167385d13443035ff68643b2c0c59a4d
 .\GFSDK_TXAA_AlphaResolve.win64.dll ea04393624856f44854cace25b50ce3c
-.\GTA5.exe 15bd5e6f85a15b5b446b630d338e0783
-.\GTAVLauncher.exe b1224569b19d6addf7f3017aa28906da
+.\GTA5.exe 79b2f4e59fddb404ec7286b8c5290889
+.\GTAVLauncher.exe 46d03c21e1e86348d8c20c04413eb927
 .\installscript.vdf 97e6e0465479984af1cf7f3da8b0e082
 .\steam_api64.dll 91212fc3c473aa4730fc02c22db2bfcb
 .\x64a.rpf 683610e269ba60c5fcc7a9f6d1a8bfd5
@@ -32,7 +32,7 @@
 .\x64u.rpf 2c9cff0cc5f99ad2218e4c4de39881b7
 .\x64v.rpf db647120263d0282b6f6c555f6112a1c
 .\x64w.rpf 46a4abe50bfc78c30c0173d888cf2c4a
-.\update\update.rpf a4d29d3f4435b267485e173389ffa4b4
+.\update\update.rpf 6b754ed02db2e23f2a19fc33085f6c04
 .\update\x64\metadata.dat d86a9e383f340dba29792bf259501f84
 .\update\x64\data\errorcodes\american.txt f709899c58fa31baaecf653e96ef058e
 .\update\x64\data\errorcodes\chinese.txt a911b8944883b022b57017bc69162fbe

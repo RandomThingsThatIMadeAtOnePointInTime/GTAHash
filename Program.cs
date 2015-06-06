@@ -46,7 +46,7 @@ namespace GTAHash
 
             // Get file lists
             fileList = Directory.EnumerateFiles(".", "*", SearchOption.AllDirectories).ToList();
-            fileHashList = client.DownloadString("https://github.com/Scarsz/GTA5-MD5-Checker/raw/master/hashes").Split(new string[] { "\n", " " }, StringSplitOptions.None).ToList();
+            fileHashList = client.DownloadString("https://github.com/Scarsz/GTAHash/raw/master/hashes").Split(new string[] { "\n", " " }, StringSplitOptions.None).ToList();
 
             // Clean file list
             // There has to be .ToList() on foreach loops where the list that's being looped is being modified inside of the foreach
